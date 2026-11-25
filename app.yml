@@ -11,5 +11,10 @@
 
 
 
+    - name: install apache webserice 
+      yum:
+        name: httpd
+        state: installed 
+
 
 
